@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31C45CAB1CED4BA30097E3E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C45CAA1CED4BA30097E3E6 /* main.m */; };
+		31C45CAE1CED4BA30097E3E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C45CAD1CED4BA30097E3E6 /* AppDelegate.m */; };
+		31C45CB11CED4BA30097E3E6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C45CB01CED4BA30097E3E6 /* MainViewController.m */; };
+		31C45CB41CED4BA30097E3E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C45CB21CED4BA30097E3E6 /* Main.storyboard */; };
+		31C45CB61CED4BA30097E3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C45CB51CED4BA30097E3E6 /* Assets.xcassets */; };
+		31C45CB91CED4BA30097E3E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C45CB71CED4BA30097E3E6 /* LaunchScreen.storyboard */; };
+		31C45CC41CED4BA30097E3E6 /* HashPassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C45CC31CED4BA30097E3E6 /* HashPassTests.m */; };
+		31C45CCF1CED4BA30097E3E6 /* HashPassUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C45CCE1CED4BA30097E3E6 /* HashPassUITests.m */; };
+		31C45CDE1CED64350097E3E6 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C45CDD1CED64350097E3E6 /* SettingViewController.m */; };
+		31C45CE11CED97420097E3E6 /* HashPassSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C45CE01CED97420097E3E6 /* HashPassSettingManager.m */; };
+		31C45CE41CEDAF8E0097E3E6 /* HashPassGenerater.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C45CE31CEDAF8E0097E3E6 /* HashPassGenerater.m */; };
+		31C45CE71CEDC04B0097E3E6 /* PersonalKeySettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C45CE61CEDC04B0097E3E6 /* PersonalKeySettingViewController.m */; };
+		31C45CEA1CEDC7240097E3E6 /* HashTypeSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C45CE91CEDC7240097E3E6 /* HashTypeSettingViewController.m */; };
+		31C45CF01CEDE4C10097E3E6 /* HPAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C45CEF1CEDE4C10097E3E6 /* HPAboutViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31C45CC01CED4BA30097E3E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31C45C9E1CED4BA30097E3E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31C45CA51CED4BA30097E3E6;
+			remoteInfo = HashPass;
+		};
+		31C45CCB1CED4BA30097E3E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31C45C9E1CED4BA30097E3E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31C45CA51CED4BA30097E3E6;
+			remoteInfo = HashPass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31C45CA61CED4BA30097E3E6 /* HashPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HashPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C45CAA1CED4BA30097E3E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31C45CAC1CED4BA30097E3E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31C45CAD1CED4BA30097E3E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31C45CAF1CED4BA30097E3E6 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		31C45CB01CED4BA30097E3E6 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		31C45CB31CED4BA30097E3E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31C45CB51CED4BA30097E3E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31C45CB81CED4BA30097E3E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31C45CBA1CED4BA30097E3E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C45CBF1CED4BA30097E3E6 /* HashPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HashPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C45CC31CED4BA30097E3E6 /* HashPassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HashPassTests.m; sourceTree = "<group>"; };
+		31C45CC51CED4BA30097E3E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C45CCA1CED4BA30097E3E6 /* HashPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HashPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C45CCE1CED4BA30097E3E6 /* HashPassUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HashPassUITests.m; sourceTree = "<group>"; };
+		31C45CD01CED4BA30097E3E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C45CDC1CED64350097E3E6 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		31C45CDD1CED64350097E3E6 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		31C45CDF1CED97420097E3E6 /* HashPassSettingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashPassSettingManager.h; sourceTree = "<group>"; };
+		31C45CE01CED97420097E3E6 /* HashPassSettingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HashPassSettingManager.m; sourceTree = "<group>"; };
+		31C45CE21CEDAF8E0097E3E6 /* HashPassGenerater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashPassGenerater.h; sourceTree = "<group>"; };
+		31C45CE31CEDAF8E0097E3E6 /* HashPassGenerater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HashPassGenerater.m; sourceTree = "<group>"; };
+		31C45CE51CEDC04B0097E3E6 /* PersonalKeySettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalKeySettingViewController.h; sourceTree = "<group>"; };
+		31C45CE61CEDC04B0097E3E6 /* PersonalKeySettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalKeySettingViewController.m; sourceTree = "<group>"; };
+		31C45CE81CEDC7240097E3E6 /* HashTypeSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashTypeSettingViewController.h; sourceTree = "<group>"; };
+		31C45CE91CEDC7240097E3E6 /* HashTypeSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HashTypeSettingViewController.m; sourceTree = "<group>"; };
+		31C45CEE1CEDE4C10097E3E6 /* HPAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPAboutViewController.h; sourceTree = "<group>"; };
+		31C45CEF1CEDE4C10097E3E6 /* HPAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPAboutViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31C45CA31CED4BA30097E3E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C45CBC1CED4BA30097E3E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C45CC71CED4BA30097E3E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31C45C9D1CED4BA30097E3E6 = {
+			isa = PBXGroup;
+			children = (
+				31C45CA81CED4BA30097E3E6 /* HashPass */,
+				31C45CC21CED4BA30097E3E6 /* HashPassTests */,
+				31C45CCD1CED4BA30097E3E6 /* HashPassUITests */,
+				31C45CA71CED4BA30097E3E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31C45CA71CED4BA30097E3E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31C45CA61CED4BA30097E3E6 /* HashPass.app */,
+				31C45CBF1CED4BA30097E3E6 /* HashPassTests.xctest */,
+				31C45CCA1CED4BA30097E3E6 /* HashPassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31C45CA81CED4BA30097E3E6 /* HashPass */ = {
+			isa = PBXGroup;
+			children = (
+				31C45CEB1CEDC72B0097E3E6 /* Controllers */,
+				31C45CAC1CED4BA30097E3E6 /* AppDelegate.h */,
+				31C45CAD1CED4BA30097E3E6 /* AppDelegate.m */,
+				31C45CDF1CED97420097E3E6 /* HashPassSettingManager.h */,
+				31C45CE01CED97420097E3E6 /* HashPassSettingManager.m */,
+				31C45CE21CEDAF8E0097E3E6 /* HashPassGenerater.h */,
+				31C45CE31CEDAF8E0097E3E6 /* HashPassGenerater.m */,
+				31C45CB21CED4BA30097E3E6 /* Main.storyboard */,
+				31C45CB51CED4BA30097E3E6 /* Assets.xcassets */,
+				31C45CB71CED4BA30097E3E6 /* LaunchScreen.storyboard */,
+				31C45CBA1CED4BA30097E3E6 /* Info.plist */,
+				31C45CA91CED4BA30097E3E6 /* Supporting Files */,
+			);
+			path = HashPass;
+			sourceTree = "<group>";
+		};
+		31C45CA91CED4BA30097E3E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31C45CAA1CED4BA30097E3E6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31C45CC21CED4BA30097E3E6 /* HashPassTests */ = {
+			isa = PBXGroup;
+			children = (
+				31C45CC31CED4BA30097E3E6 /* HashPassTests.m */,
+				31C45CC51CED4BA30097E3E6 /* Info.plist */,
+			);
+			path = HashPassTests;
+			sourceTree = "<group>";
+		};
+		31C45CCD1CED4BA30097E3E6 /* HashPassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31C45CCE1CED4BA30097E3E6 /* HashPassUITests.m */,
+				31C45CD01CED4BA30097E3E6 /* Info.plist */,
+			);
+			path = HashPassUITests;
+			sourceTree = "<group>";
+		};
+		31C45CEB1CEDC72B0097E3E6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				31C45CED1CEDC73F0097E3E6 /* Setting */,
+				31C45CEC1CEDC73A0097E3E6 /* Main */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		31C45CEC1CEDC73A0097E3E6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				31C45CAF1CED4BA30097E3E6 /* MainViewController.h */,
+				31C45CB01CED4BA30097E3E6 /* MainViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		31C45CED1CEDC73F0097E3E6 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				31C45CDC1CED64350097E3E6 /* SettingViewController.h */,
+				31C45CDD1CED64350097E3E6 /* SettingViewController.m */,
+				31C45CE51CEDC04B0097E3E6 /* PersonalKeySettingViewController.h */,
+				31C45CE61CEDC04B0097E3E6 /* PersonalKeySettingViewController.m */,
+				31C45CE81CEDC7240097E3E6 /* HashTypeSettingViewController.h */,
+				31C45CE91CEDC7240097E3E6 /* HashTypeSettingViewController.m */,
+				31C45CEE1CEDE4C10097E3E6 /* HPAboutViewController.h */,
+				31C45CEF1CEDE4C10097E3E6 /* HPAboutViewController.m */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31C45CA51CED4BA30097E3E6 /* HashPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C45CD31CED4BA30097E3E6 /* Build configuration list for PBXNativeTarget "HashPass" */;
+			buildPhases = (
+				31C45CA21CED4BA30097E3E6 /* Sources */,
+				31C45CA31CED4BA30097E3E6 /* Frameworks */,
+				31C45CA41CED4BA30097E3E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HashPass;
+			productName = HashPass;
+			productReference = 31C45CA61CED4BA30097E3E6 /* HashPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31C45CBE1CED4BA30097E3E6 /* HashPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C45CD61CED4BA30097E3E6 /* Build configuration list for PBXNativeTarget "HashPassTests" */;
+			buildPhases = (
+				31C45CBB1CED4BA30097E3E6 /* Sources */,
+				31C45CBC1CED4BA30097E3E6 /* Frameworks */,
+				31C45CBD1CED4BA30097E3E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31C45CC11CED4BA30097E3E6 /* PBXTargetDependency */,
+			);
+			name = HashPassTests;
+			productName = HashPassTests;
+			productReference = 31C45CBF1CED4BA30097E3E6 /* HashPassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31C45CC91CED4BA30097E3E6 /* HashPassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C45CD91CED4BA30097E3E6 /* Build configuration list for PBXNativeTarget "HashPassUITests" */;
+			buildPhases = (
+				31C45CC61CED4BA30097E3E6 /* Sources */,
+				31C45CC71CED4BA30097E3E6 /* Frameworks */,
+				31C45CC81CED4BA30097E3E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31C45CCC1CED4BA30097E3E6 /* PBXTargetDependency */,
+			);
+			name = HashPassUITests;
+			productName = HashPassUITests;
+			productReference = 31C45CCA1CED4BA30097E3E6 /* HashPassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31C45C9E1CED4BA30097E3E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = gknows;
+				TargetAttributes = {
+					31C45CA51CED4BA30097E3E6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 99MRWBVH2W;
+					};
+					31C45CBE1CED4BA30097E3E6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 31C45CA51CED4BA30097E3E6;
+					};
+					31C45CC91CED4BA30097E3E6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 31C45CA51CED4BA30097E3E6;
+					};
+				};
+			};
+			buildConfigurationList = 31C45CA11CED4BA30097E3E6 /* Build configuration list for PBXProject "HashPass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31C45C9D1CED4BA30097E3E6;
+			productRefGroup = 31C45CA71CED4BA30097E3E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31C45CA51CED4BA30097E3E6 /* HashPass */,
+				31C45CBE1CED4BA30097E3E6 /* HashPassTests */,
+				31C45CC91CED4BA30097E3E6 /* HashPassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31C45CA41CED4BA30097E3E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C45CB91CED4BA30097E3E6 /* LaunchScreen.storyboard in Resources */,
+				31C45CB61CED4BA30097E3E6 /* Assets.xcassets in Resources */,
+				31C45CB41CED4BA30097E3E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C45CBD1CED4BA30097E3E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C45CC81CED4BA30097E3E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31C45CA21CED4BA30097E3E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C45CE71CEDC04B0097E3E6 /* PersonalKeySettingViewController.m in Sources */,
+				31C45CE41CEDAF8E0097E3E6 /* HashPassGenerater.m in Sources */,
+				31C45CF01CEDE4C10097E3E6 /* HPAboutViewController.m in Sources */,
+				31C45CB11CED4BA30097E3E6 /* MainViewController.m in Sources */,
+				31C45CAE1CED4BA30097E3E6 /* AppDelegate.m in Sources */,
+				31C45CE11CED97420097E3E6 /* HashPassSettingManager.m in Sources */,
+				31C45CEA1CEDC7240097E3E6 /* HashTypeSettingViewController.m in Sources */,
+				31C45CAB1CED4BA30097E3E6 /* main.m in Sources */,
+				31C45CDE1CED64350097E3E6 /* SettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C45CBB1CED4BA30097E3E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C45CC41CED4BA30097E3E6 /* HashPassTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C45CC61CED4BA30097E3E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C45CCF1CED4BA30097E3E6 /* HashPassUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31C45CC11CED4BA30097E3E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31C45CA51CED4BA30097E3E6 /* HashPass */;
+			targetProxy = 31C45CC01CED4BA30097E3E6 /* PBXContainerItemProxy */;
+		};
+		31C45CCC1CED4BA30097E3E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31C45CA51CED4BA30097E3E6 /* HashPass */;
+			targetProxy = 31C45CCB1CED4BA30097E3E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31C45CB21CED4BA30097E3E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C45CB31CED4BA30097E3E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31C45CB71CED4BA30097E3E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C45CB81CED4BA30097E3E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31C45CD11CED4BA30097E3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31C45CD21CED4BA30097E3E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31C45CD41CED4BA30097E3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HashPass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.gknows.HashPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		31C45CD51CED4BA30097E3E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HashPass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.gknows.HashPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		31C45CD71CED4BA30097E3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HashPassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.gknows.HashPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HashPass.app/HashPass";
+			};
+			name = Debug;
+		};
+		31C45CD81CED4BA30097E3E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HashPassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.gknows.HashPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HashPass.app/HashPass";
+			};
+			name = Release;
+		};
+		31C45CDA1CED4BA30097E3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HashPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.gknows.HashPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HashPass;
+			};
+			name = Debug;
+		};
+		31C45CDB1CED4BA30097E3E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HashPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.gknows.HashPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HashPass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31C45CA11CED4BA30097E3E6 /* Build configuration list for PBXProject "HashPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C45CD11CED4BA30097E3E6 /* Debug */,
+				31C45CD21CED4BA30097E3E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C45CD31CED4BA30097E3E6 /* Build configuration list for PBXNativeTarget "HashPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C45CD41CED4BA30097E3E6 /* Debug */,
+				31C45CD51CED4BA30097E3E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C45CD61CED4BA30097E3E6 /* Build configuration list for PBXNativeTarget "HashPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C45CD71CED4BA30097E3E6 /* Debug */,
+				31C45CD81CED4BA30097E3E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C45CD91CED4BA30097E3E6 /* Build configuration list for PBXNativeTarget "HashPassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C45CDA1CED4BA30097E3E6 /* Debug */,
+				31C45CDB1CED4BA30097E3E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31C45C9E1CED4BA30097E3E6 /* Project object */;
+}
