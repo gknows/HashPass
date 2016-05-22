@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  HashPass
+
+  Created by HJ on 5/22/16.
+  Copyright © 2016 gknows. All rights reserved.
+*/
+
+CFBundleDisplayName = "哈希密码";

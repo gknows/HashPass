@@ -1,0 +1,66 @@
+
+/* Class = "UITableViewSection"; headerTitle = "密码长度"; ObjectID = "0uL-yH-PJ3"; */
+"0uL-yH-PJ3.headerTitle" = "密码长度";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "AhP-Qh-p08"; */
+"AhP-Qh-p08.text" = "Label";
+
+/* Class = "UITableViewSection"; footerTitle = "输入你的个人标识符，比如常用的ID，或者姓名、单词等，便于记忆即可"; ObjectID = "GT8-sd-Q4r"; */
+"GT8-sd-Q4r.footerTitle" = "输入你的个人标识符，比如常用的ID，或者姓名、单词等，便于记忆即可";
+
+/* Class = "UILabel"; text = "哈希类型"; ObjectID = "K7d-By-gUE"; */
+"K7d-By-gUE.text" = "哈希类型";
+
+/* Class = "UILabel"; text = "发送到通知栏"; ObjectID = "L8m-g7-Nw2"; */
+"L8m-g7-Nw2.text" = "发送到通知栏";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "MUR-jp-noH"; */
+"MUR-jp-noH.text" = "Label";
+
+/* Class = "UITableViewSection"; headerTitle = "哈希次数"; ObjectID = "NYO-IE-cv5"; */
+"NYO-IE-cv5.headerTitle" = "哈希次数";
+
+/* Class = "UITableViewSection"; footerTitle = "设置按钮隐藏后，在首页密码计算框输入个人标识即可临时显示"; ObjectID = "Tt7-Sp-PuL"; */
+"Tt7-Sp-PuL.footerTitle" = "设置按钮隐藏后，在首页密码计算框输入个人标识即可临时显示";
+
+/* Class = "UILabel"; text = "隐藏首页设置按钮"; ObjectID = "Wau-EC-ysL"; */
+"Wau-EC-ysL.text" = "隐藏首页设置按钮";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Y5b-K6-zAy"; */
+"Y5b-K6-zAy.text" = "Label";
+
+/* Class = "UILabel"; text = "混合大小写"; ObjectID = "Yvm-sh-YFk"; */
+"Yvm-sh-YFk.text" = "混合大小写";
+
+/* Class = "UILabel"; text = "复制到粘贴板"; ObjectID = "aGI-zS-f4F"; */
+"aGI-zS-f4F.text" = "复制到粘贴板";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bXZ-e4-f8F"; */
+"bXZ-e4-f8F.text" = "Label";
+
+/* Class = "UILabel"; text = "关于"; ObjectID = "dS9-Q0-ENv"; */
+"dS9-Q0-ENv.text" = "关于";
+
+/* Class = "UITextField"; placeholder = "你的个人标识"; ObjectID = "fZJ-ZI-OtP"; */
+"fZJ-ZI-OtP.placeholder" = "你的个人标识";
+
+/* Class = "UILabel"; text = "去评分"; ObjectID = "ljf-E1-CuT"; */
+"ljf-E1-CuT.text" = "去评分";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "n1G-2y-Iyw"; */
+"n1G-2y-Iyw.text" = "Label";
+
+/* Class = "UITableViewSection"; footerTitle = "对于禁止粘贴的密码框，可以在通知栏查看后输入"; ObjectID = "o3d-5W-Bnk"; */
+"o3d-5W-Bnk.footerTitle" = "对于禁止粘贴的密码框，可以在通知栏查看后输入";
+
+/* Class = "UITableViewSection"; headerTitle = "生成密码后"; ObjectID = "o3d-5W-Bnk"; */
+"o3d-5W-Bnk.headerTitle" = "生成密码后";
+
+/* Class = "UILabel"; text = "gknows.github.io"; ObjectID = "q2V-ww-smS"; */
+"q2V-ww-smS.text" = "gknows.github.io";
+
+/* Class = "UITextField"; placeholder = "输入账户特征码，例如apple"; ObjectID = "u4Y-er-TCi"; */
+"u4Y-er-TCi.placeholder" = "输入账户特征码，例如apple";
+
+/* Class = "UILabel"; text = "个人标识"; ObjectID = "wzZ-jx-hXa"; */
+"wzZ-jx-hXa.text" = "个人标识";

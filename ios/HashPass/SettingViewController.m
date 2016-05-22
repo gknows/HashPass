@@ -28,11 +28,12 @@
 
 @implementation SettingViewController
 
+#define HP_SETTING  NSLocalizedString(@"HP_SETTING", @"setting")
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     self.tableView.tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, 8.0)];
-    self.navigationItem.title = @"设置";
+    self.navigationItem.title = HP_SETTING; //@"设置"
     
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(onSendNotificationSettingChangedNotification:)

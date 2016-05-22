@@ -18,17 +18,21 @@
 
 @implementation PersonalKeySettingViewController
 
+#define HP_PERSONAL_KEY_SETTING NSLocalizedString(@"HP_PERSONAL_KEY_SETTING", @"personal setting view title")
+#define HP_PERSONAL_KEY_SETTING_CANCEL NSLocalizedString(@"HP_PERSONAL_KEY_SETTING_CANCEL", @"personal setting view cancel")
+#define HP_PERSONAL_KEY_SETTING_SAVE NSLocalizedString(@"HP_PERSONAL_KEY_SETTING_SAVE", @"personal setting view save")
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    self.navigationItem.title = @"个人标识设置";
-    UIBarButtonItem *leftButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"取消"
+    self.navigationItem.title = HP_PERSONAL_KEY_SETTING; // @"个人标识设置";
+    UIBarButtonItem *leftButtonItem = [[UIBarButtonItem alloc] initWithTitle:HP_PERSONAL_KEY_SETTING_CANCEL // @"取消"
                                                       style:UIBarButtonItemStylePlain
                                                      target:self
                                                      action:@selector(cancel:)];
     self.navigationItem.leftBarButtonItem = leftButtonItem;
-    UIBarButtonItem *rightButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"保存" style:UIBarButtonItemStylePlain
+    UIBarButtonItem *rightButtonItem = [[UIBarButtonItem alloc] initWithTitle:HP_PERSONAL_KEY_SETTING_SAVE // @"保存"
+                                                                        style:UIBarButtonItemStylePlain
                                                                        target:self
                                                                        action:@selector(save:)];
     self.navigationItem.rightBarButtonItem = rightButtonItem;

@@ -56,11 +56,13 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
+#define HP_HASH_PASS_TITLE  NSLocalizedString(@"HP_HASH_PASS_TITLE", @"main view title")
+#define HP_SETTING_TIP      NSLocalizedString(@"HP_SETTING_TIP", @"setting tip")
 - (void)setupSubviews
 {
     [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
     [self.navigationController.navigationBar setShadowImage:[UIImage new]];
-    self.navigationItem.title = @"哈希密码";
+    self.navigationItem.title = HP_HASH_PASS_TITLE; // @"哈希密码"
     
     self.codeBarView.layer.cornerRadius = 3;
     self.codeBarView.layer.masksToBounds = YES;
@@ -79,7 +81,7 @@
     _resultLabel.translatesAutoresizingMaskIntoConstraints = NO;
     if (![[HashPassSettingManager sharedManager].alreadySet boolValue]) {
         _resultLabel.font = [UIFont systemFontOfSize:14.0];
-        _resultLabel.text = @"还没有进行偏好设置？点这里->";
+        _resultLabel.text = HP_SETTING_TIP;// @"还没有进行偏好设置？点这里->"
         _resultLabel.textAlignment = NSTextAlignmentRight;
         [HashPassSettingManager sharedManager].alreadySet = @(YES);
     }

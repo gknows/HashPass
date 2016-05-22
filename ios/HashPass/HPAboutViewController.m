@@ -16,12 +16,15 @@
 
 @implementation HPAboutViewController
 
+#define HP_ABOUT NSLocalizedString(@"HP_ABOUT", @"about")
+#define HP_ABOUT_VERSION NSLocalizedString(@"HP_ABOUT_VERSION", @"about view version")
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.navigationItem.title = @"关于";
+    self.navigationItem.title = HP_ABOUT; // @"关于";
     NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
-    self.versionLabel.text = [NSString stringWithFormat:@"哈希密码 %@", version];
+    //self.versionLabel.text = [NSString stringWithFormat:@"哈希密码 %@", version];
+    self.versionLabel.text = [NSString stringWithFormat:HP_ABOUT_VERSION, version];
 }
 
 @end

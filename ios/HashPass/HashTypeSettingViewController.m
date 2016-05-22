@@ -19,10 +19,11 @@
 
 @implementation HashTypeSettingViewController
 
+#define HP_HASH_TYPE_SETTING NSLocalizedString(@"HP_HASH_TYPE_SETTING", @"hash type setting title")
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.navigationItem.title = @"哈希类型设置";
+    self.navigationItem.title = HP_HASH_TYPE_SETTING; // @"哈希类型设置";
     self.hashTypes = [[HashPassSettingManager sharedManager] allSupportHashType];
     self.currentHashType = [HashPassSettingManager sharedManager].hashType;
     self.tableView.dataSource = self;
