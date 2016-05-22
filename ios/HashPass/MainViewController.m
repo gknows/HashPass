@@ -78,7 +78,10 @@
     _resultLabel.backgroundColor = [UIColor clearColor];
     _resultLabel.translatesAutoresizingMaskIntoConstraints = NO;
     if (![[HashPassSettingManager sharedManager].alreadySet boolValue]) {
+        _resultLabel.font = [UIFont systemFontOfSize:14.0];
         _resultLabel.text = @"还没有进行偏好设置？点这里->";
+        _resultLabel.textAlignment = NSTextAlignmentRight;
+        [HashPassSettingManager sharedManager].alreadySet = @(YES);
     }
     [self.view addSubview:_resultLabel];
     
@@ -127,6 +130,8 @@
 
 - (IBAction)doneEditAction:(UITextField *)sender
 {
+    self.resultLabel.font = [UIFont systemFontOfSize:17.0];
+    self.resultLabel.textAlignment = NSTextAlignmentLeft;
     NSString *text = sender.text;
     NSString *result = [HashPassGenerater generatePassword:text];
     self.resultLabel.text = result;
@@ -147,7 +152,6 @@
 
 - (void)settingAction:(UIButton *)sender
 {
-    [HashPassSettingManager sharedManager].alreadySet = @(YES);
     self.resultLabel.text = @"";
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
     SettingViewController *vc = [storyBoard instantiateViewControllerWithIdentifier:@"SettingView"];
