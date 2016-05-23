@@ -123,8 +123,9 @@
 {
     if ((indexPath.section == 5) && (indexPath.row == 1))
     {
-        NSLog(@"test");
-#warning 增加调整到评分
+        NSString *appStoreId = @"1116485232"; 
+        NSString *url = [NSString stringWithFormat:@"https://itunes.apple.com/app/id%@", appStoreId];
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
     }
 }
 
