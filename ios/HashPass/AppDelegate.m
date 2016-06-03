@@ -27,14 +27,17 @@
     return YES;
 }
 
+#define HP_SEND_NOTIFICATION_FAILED_TITLE  NSLocalizedString(@"HP_SEND_NOTIFICATION_FAILED_TITLE", @"send notification setting failed title")
+#define HP_SEND_NOTIFICATION_FAILED_DETAIL NSLocalizedString(@"HP_SEND_NOTIFICATION_FAILED_DETAIL", @"send notification setting failed detail")
+#define HP_SEND_NOTIFICATION_FAILED_CONFIRM NSLocalizedString(@"HP_SEND_NOTIFICATION_FAILED_CONFIRM", @"send notification setting failed confirm")
 - (void)application:(UIApplication *)application didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings
 {
     if (notificationSettings.types == UIUserNotificationTypeNone) {
         [HashPassSettingManager sharedManager].sendNotification = @(NO);
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"\"发送到通知栏\"功能打开失败"
-                                                        message:@"通知权限已被禁止:(\n如果需要开启此功能，请首先到系统\n\"设置-哈希密码-通知\"\n开启允许通知"
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:HP_SEND_NOTIFICATION_FAILED_TITLE
+                                                        message:HP_SEND_NOTIFICATION_FAILED_DETAIL
                                                        delegate:nil
-                                              cancelButtonTitle:@"知道了"
+                                              cancelButtonTitle:HP_SEND_NOTIFICATION_FAILED_CONFIRM
                                               otherButtonTitles:nil];
         [alert show];
     }
